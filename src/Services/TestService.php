@@ -1,4 +1,5 @@
 <?php
+namespace HelloWorld\Services;
 
 class TestService
 {
