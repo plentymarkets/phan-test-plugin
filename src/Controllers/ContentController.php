@@ -3,7 +3,7 @@ namespace HelloWorld\Controllers;
 
 use Plenty\Plugin\Controller;
 use Plenty\Plugin\Templates\Twig;
-use Plenty\Repositories\Contracts\DeleteResponseContracttt;
+use Plenty\Repositories\Contracts\DeleteResponseContract;
 
 /**
  * Class ContentController
@@ -17,8 +17,9 @@ class ContentController extends Controller
 	 */
 	public function sayHello(Twig $twig):string
 	{
-        /** @var DeleteResponseContracttt $test */
-        $test = pluginApp(DeleteResponseContracttt::class);
+        /** @var DeleteResponseContract $test */
+        $test = pluginApp(DeleteResponseContract::class);
+        $test->getAffectedRowsdsjkdsjakd();
 
 		return $twig->render('HelloWorld::content.hello');
 	}
