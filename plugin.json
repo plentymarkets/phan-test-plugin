@@ -1,5 +1,5 @@
 {
-      "name":"HelloWorld",
+      "name":"PhanPlugin",
       "description":"My first plugin",
       "namespace":"HelloWorld",
       "author":"plentysystems AG",
