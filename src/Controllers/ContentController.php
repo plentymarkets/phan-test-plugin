@@ -18,7 +18,7 @@ class ContentController extends Controller
 	public function sayHello(Twig $twig):string
 	{
         /** @var DeleteResponseContract $test */
-        $test = pluginApp(DeleteResponseContract::class);
+        $test = pluginApppp(DeleteResponseContract::class);
 
 		return $twig->render('HelloWorld::content.hello');
 	}
