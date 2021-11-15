@@ -19,7 +19,7 @@ class ContentController extends Controller
 	{
         /** @var DeleteResponseContract $test */
         $test = pluginApp(DeleteResponseContract::class);
-        $test->getAffectedRowsdsjkdsjakd();
+        $test->getAffectedRows();
 
 		return $twig->render('HelloWorld::content.hello');
 	}
